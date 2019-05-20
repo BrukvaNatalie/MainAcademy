@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work3</title>
+</head>
+<body>
+    <h1 align="center">Заполнить форму</h1>
+    <form>
+           
+<input type="text" name="name" size="40" placeholder="Введите имя" required>
+<input type="text" name="surname"  size="40" placeholder="Введите фамилию" required>
+<br/>
+
+<hr/>
+   <p> <label for="password">Введите пароль</label>
+<input type="password" maxlength="25" size="40" name="password" id="password" required><br/></p>
+<p><label>Повторите пароль</label>
+<input type="password" maxlength="25" size="40" name="password" required></p>
+<hr/>
+<p><label for="country">Ваша страна</label><br/>
+<select name="country" size="1" id="country">
+        <option value="cr1" selected>Украина</option>
+        <option value="cr2">Россия</option>
+        <option value="cr3">Германия</option>
+        <option value="cr4">США</option>
+    </select></p>
+
+
+<p><label for="city">Ваш город</label> <br/>
+<select name="city" size="4" id="city">
+        <option value="" disabled>Выберите город</option>
+		<option selected value="Kiev">Киев</option>
+		<option value="Odesa">Одеса</option>
+		<option value="Lvov">Львов</option>
+        <option value="Dnepr">Днепр</option>
+        <option value="Harkiv">Харьков</option>
+    </select></p>
+    <br/>
+    
+<fieldset>
+    <legend> Что вы любите делать</legend>
+    <label for="sleep">
+    <input type="checkbox" name="sleep" id="sleep" checked> Спать</label><Br>
+        <label for="eat">
+    <input type="checkbox" name="eat" id="eat"> Кушать</label><Br>
+        <label for="run">
+    <input type="checkbox" name="run" id="run"> Бегать</label><Br>
+        <label for="learn">
+    <input type="checkbox" name="learn" id="learn"> Учится</label><Br>
+        <label for="draw">
+    <input type="checkbox" name="draw" id="draw" > Рисовать</label><Br>
+        <label for="drink">
+    <input type="checkbox" name="drink" id="drink"> Употреблять много алкоголя</label><Br>   
+    </fieldset><br/>
+
+<fieldset>
+     <legend>Вам есть 18?</legend>
+     <label for="yes">
+     <input type="radio" name="age" id="yes"> да</label><Br>
+        <label for="no">
+     <input type="radio" name="age" id="no"> нет</label><Br>
+</fieldset>   <br/>         
+           
+           <p> <textarea placeholder="кратко о себе" name="about" cols="40" rows="3"></textarea></p>
+            <input type="submit" value="Отправить">
+             <input type="reset" value="Очистить">
+           </form>
+</body>
+</html>
