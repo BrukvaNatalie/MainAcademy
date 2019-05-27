@@ -1,0 +1,32 @@
+header, footer{
+    background-color: aliceblue;
+    padding: 15px;
+}
+header{
+    text-align: right
+}
+  header button, footer button{
+    color: white;
+    background-color: cornflowerblue;
+    padding: 15px;
+  }
+.content{
+    border-width: 1px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    margin: 20px;
+    padding: 15px;
+}
+.buttonsector{
+    color: white;
+    background-color: brown;
+    padding: 3px
+}
+.sector{
+    margin: 10px;
+    background-color: beige
+    }
+.buttoncontent{
+    color: blue;
+    background-color: white;
+}

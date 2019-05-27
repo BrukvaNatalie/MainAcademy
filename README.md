@@ -1,2 +1,0 @@
-# MainAcademy
-Laba
